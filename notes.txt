@@ -1,0 +1,6 @@
+Intl = Internationalization API (built into JavaScript)
+"en-IN"
+en → English language
+IN → India region
+
+This makes formatting follow Indian number system
