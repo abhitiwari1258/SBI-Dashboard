@@ -3,6 +3,7 @@ import bankingService from "../services/BankingService";
 import DepositAccount from "./DepositAccount";
 import LoanAccount from "./LoanAccount";
 import CreditCardAccount from "./CreditCardAccount";
+import FeedbackForm from "./FeedbackForm"
 const SBIDashboard = () => {
   const [customer, setCustomer] = useState({});
   const [rates,setRates] = useState({})
@@ -93,6 +94,10 @@ const SBIDashboard = () => {
             :
             (<p className="no-results">No accounts match your search.</p>)
             }
+        </div>
+
+        <div className="feedback-section">
+          <FeedbackForm/>
         </div>
 
       </div>
