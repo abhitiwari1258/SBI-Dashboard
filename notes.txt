@@ -4,3 +4,34 @@ en → English language
 IN → India region
 
 This makes formatting follow Indian number system
+
+----------------------------------------
+/^\S+@\S+\.\S+$/.test(email)
+-> regular expression (regex) used to validate an email format.
+
+/ ... / → regular expression pattern
+.test(email) → checks if the email matches the pattern
+Returns → true or false
+
+^
+Means → start of string
+
+\S+  (no space)
+\S → any NON-whitespace character
++ → one or more
+
+@
+Email must contain @.
+
+\.
+email must contain a dot.
+
+$
+Means → end of string
+------------------------------------------------------
+
+Object.keys() returns an array of an object’s own property names (keys).
+
+Object.values() -> Returns values only:
+
+Object.entries() -> Returns key-value pairs:
